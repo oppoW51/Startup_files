@@ -20,9 +20,12 @@ arm-none-eabi-gcc and st-flash required
 >[!WARNING]
 >Check your RAM and Flash lengths and adresses before start
 
-```
-shell
+```bash
 make # build
+```
+```bash
 make flash # flash on device
+```
+```bash
 make clean # clean build files
 ```
